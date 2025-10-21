@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ravanhatta</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <!-- Audio element -->
+  <audio id="sitarAudio" loop>
+    <source src="./assets/audio/Ravanhatta.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- Audio Controls -->
+  <div class="audio-controls">
+    <h4>Audio Controls</h4>
+    <div id="audioStatus" class="audio-status status-stopped">Stopped</div>
+    <button id="playBtn">Play</button>
+    <button id="pauseBtn">Pause</button>
+    <button id="stopBtn">Stop</button>
+    <div style="margin-top: 10px; font-size: 12px;">
+      <label>
+        <input type="checkbox" id="autoPlayCheck" checked> Auto-play on scroll
+      </label>
+    </div>
+  </div>
+
+  <div class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <h1>RAVANHATTA</h1>
+      <p class="hero-subtitle">Each stroke of the bow is a prayer, each note a story whispered across generations.</p>
+    </div>
+    <div class="scroll-indicator" onclick="window.scrollTo({top: window.innerHeight, behavior: 'smooth'})">
+      <div class="scroll-indicator-text">Scroll</div>
+      <div class="scroll-arrow"></div>
+    </div>
+  </div>
+
+  <!-- Text Content -->
+  <section>
+    
+    <p>
+      The Ravanhatta, often called the “violin of the desert,” is an ancient bowed string instrument deeply rooted in the cultural fabric of Rajasthan, India, and Sri Lanka. 
+      Believed to have originated during the reign of King Ravana in Lanka, this instrument is said to have been played by the king himself in devotion to Lord Shiva. 
+      Legends narrate that after Ravana’s defeat in the Ramayana, Lord Hanuman carried the Ravanhatta to North India, where it blossomed into a part of Rajasthan’s musical identity. 
+      Crafted using simple, locally sourced materials such as bamboo, coconut shell, metal pipes, goat hide, and horsehair, it produces a hauntingly soulful tune that mirrors the spirit of the desert and its wandering bards.<!--[1][2][3]-->
+    </p>
+    <br><br>
+    <p>
+      Over the centuries, the Ravanhatta evolved from its mythical origins to become a cherished instrument among Rajasthan’s folk musicians, particularly the Bhopas and Nayaks, who use it to narrate epic tales such as that of Pabuji, the legendary hero of the Rabari community. 
+      The structure of the instrument—a long bamboo neck attached to a resonating gourd covered with goat skin—gives it a raw, earthy tone. 
+      Its bow, often adorned with jingling bells, adds rhythm to the melodies, creating a unique musical dialogue between story and song. 
+      Many music historians consider the Ravanhatta one of the earliest known bowed instruments and a key ancestor of the modern violin.<!--[4][5][6]-->
+    </p>
+    <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br>
+    <p>
+      In today’s Rajasthan, the Ravanhatta continues to echo through the golden sands, connecting ancient mythology with living tradition. 
+      Street performers and rural storytellers keep its legacy alive, their simple yet stirring performances reminding listeners of a time when music was both devotion and storytelling. 
+      Beyond its role in folklore, the instrument stands as a symbol of resilience and artistic continuity—an enduring voice of India’s musical heritage.<!--[3][5][6]-->
+      
+      
+    </p>
+
+    <img src="./assets/images/image1.jpg" alt="Ravanhatta Player" style="height: 300px;width: 450px;object-fit: cover;"/>
+    <img src="./assets/images/image2.webp" style="height: 300px;width: 450px;object-fit: cover;margin-left: 100px;">
+    
+  </section>
+
+  <!-- Ravanhatta Image -->
+  <div class="imagediv">
+    <img id="sitar" src="./assets/images/Ravanhatta.png" alt="Ravanhatta">
+
+    <!-- === HOTSPOTS & LABELS === -->
+    <div class="label-hotspot" id="hotspot-bow" style="top: 54%; left: 110px;"></div>
+    <div class="label-box" id="label-bow" style="top: 50%; left: 110px;">Horsehair Bow</div>
+
+    <div class="label-hotspot" id="hotspot-pegs" style="top: 800px; left: 300px;"></div>
+    <div class="label-box" id="label-pegs" style="top: 800px; left: 80px;">Tuning Pegs </div>
+
+    <div class="label-hotspot" id="hotspot-resonator" style="top: 1820px; left: 190px;"></div>
+    <div class="label-box" id="label-resonator" style="top: 1965px; left: 15px;">Coconut Resonator</div>
+
+    <!-- === SVG ARROWS === -->
+
+    <svg class="label-svg">
+      <defs>
+        <marker id="arrowhead" markerWidth="8" markerHeight="8" 
+                refX="5" refY="3" orient="auto" markerUnits="strokeWidth">
+          <path d="M0,0 L0,6 L6,3 z" fill="#ffe5b4" />
+        </marker>
+      </defs>
+
+      <!-- Straight Lines from hotspot center to label edge -->
+      <line id="arrow-pegs" x1="300" y1="812" x2="182" y2="812" />       <!-- Tuning Pegs -->
+      <line id="arrow-bow" x1="120" y1="1410" x2="130" y2="1325" />      <!-- Bow -->
+      <line id="arrow-resonator" x1="195" y1="1840" x2="80" y2="1960" />    <!-- Coconut Resonator -->
+    </svg>
+  </div>
+
+  <!-- Bow Player Image -->
+  <div class="imagediv2">
+    <img id="stick" src="./assets/images/bow.png" alt="Stick player">
+  </div>
+
+  <!-- JavaScript -->
+   <script src="script.js"></script>
+  </body>
+</html>
