@@ -1,20 +1,28 @@
-<!--[1](https://en.wikipedia.org/wiki/Ravanahatha)
-      [2](https://gaatha.com/the-story-of-a-storyteller-his-instrument/)
-      [3](https://aathun.com/instruments/ravanhatha-the-musical-instrument/)
-      [4](https://madrascourier.com/insight/ravanstrom-the-worlds-oldest-bowed-instrument/)
-      [5](https://udaipurdarpan.com/reviving-traditional-music-udaipur-ravanahatha/)
-      [6](https://www.exoticindia.com/book/details/ravanhattha-epic-journey-of-instrument-in-rajasthan-ihj061/)
-      [7](https://www.swarclassical.com/Instruments/ravanhattha/)
-      [8](https://www.youtube.com/watch?v=LeCSUh492EI)
-      [9](https://www.youtube.com/watch?v=SuQv70Aeci8)
-      [10](https://www.mintageworld.com/media/detail/12803-ravanahatha-the-predecessor-of-the-present-day-violin/)
-      [11](https://testbook.com/question-answer/what-type-of-musical-instrument-is-the-ravanh--620f849b09894c1bb9db9d99)
-      [12](https://en.wikipedia.org/wiki/Musical_instruments_of_Rajasthan)
-      [13](http://indianculture.gov.in/musical-instruments/tat-vadya/ravanhatha)
-      [14](https://www.youtube.com/watch?v=bPzt5f2XoVY)
-      [15](https://udaipurblog.com/rajasthani-folk-music-instruments-you-should-know-about.html)
-      [16](https://lifeisavacation.wordpress.com/2014/11/19/folk-string-instruments-rajasthan-ravanhatta/)
-      [17](https://organology.net/instrument/ravanahatha/)
-      [18](http://lifeisavacation.in/2014/11/19/folk-string-instruments-rajasthan-ravanhatta/)
-      [19](https://archive.roar.media/english/life/history/ravanahatha-the-fabled-violin-of-ravana)
-      [20](https://lifeisavacation.in/2014/11/19/folk-string-instruments-rajasthan-ravanhatta/)  -->
+# Ravanhatta
+
+This repository contains an interactive web-based artefact dedicated to the **Ravanhatta**, an ancient bowed string instrument from Rajasthan. Traditionally crafted from a **coconut shell**, **bamboo**, and **natural fibers**, the Ravanhatta holds an important place in Rajasthani folk music and is often viewed as an early predecessor of the modern violin.
+
+This project combines cultural storytelling with web-based interaction to help viewers explore the instrument in a visually engaging manner.
+
+
+## Authors
+
+Developed by **Raghav Maliwal**,                                                          
+Course Project - Digital Society (LAL3080) 
+
+## Deployment
+
+View online using GitHub Page link:  
+https://raghavmaliwal.github.io/Ravanhatta/
+
+## References
+
+- https://en.wikipedia.org/wiki/Ravanahatha
+- https://gaatha.com/the-story-of-a-storyteller-his-instrument/
+- https://aathun.com/instruments/ravanhatha-the-musical-instrument/
+- https://madrascourier.com/insight/ravanstrom-the-worlds-oldest-bowed-instrument/
+- https://udaipurdarpan.com/reviving-traditional-music-udaipur-ravanahatha/
+- https://www.exoticindia.com/book/details/ravanhattha-epic-journey-of-instrument-in-rajasthan-ihj061/
+- https://www.swarclassical.com/Instruments/ravanhattha/
+- https://www.youtube.com/watch?v=LeCSUh492EI
+- https://www.youtube.com/watch?v=SuQv70Aeci8
